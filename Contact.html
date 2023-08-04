@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="compitition 2/a-m-logo-png-transparent ico.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script>
+      emailjs.init("uRV8H-PcdAkWqCkak");
+    </script>
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="style.css"> 
+
+
+</head>
+<body onload="myFunction()" style="margin:0;">
+  
+  <div id="loader"></div>
+  
+  <div style="display:none;" id="myDiv" class="pg animate-bottom">    
+  </body>
+<body>
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="Home.html">
+              <img
+                src="compitition 2/a-m-logo-png-transparent.png"
+                height="40"
+                alt="MDB Logo"
+                loading="lazy"
+              />
+            </a>
+            <!-- Left links -->
+            <div class="autocomplete">
+              <form  class=" d-flex input-group w-auto">
+                <div  class="form-outline">
+  
+                 <input 
+                 id="search-input"
+                 type="search"
+                 class=" form-control"
+                 placeholder="What are you looking for"
+                 aria-label="Search"
+               />
+               <ul id="autocomplete-results"></ul>
+  
+                </div>
+                <button
+                class="btn btn-outline-primary"
+                type="button"
+                data-mdb-ripple-color="dark"
+              >
+                Search
+              </button>
+              </form>
+            
+            </div>
+            
+           
+           
+            
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+          <nav class="navbar1 navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <ul class="navbar-nav">
+                <!-- Icon dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="flag-united-kingdom flag m-0"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="flag-united-kingdom flag"></i>English
+                        <i class="fa fa-check text-success ms-2"></i
+                      ></a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>Polski</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="flag-japan flag"></i>日本語</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="flag-germany flag"></i>Deutsch</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="flag-france flag"></i>Français</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="flag-russia flag"></i>Русский</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="flag-portugal flag"></i>Português</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Right elements -->
+          <div class="d-flex align-items-center">
+              <a href="Sign-in.html" class="btn btn-link px-3 me-2">
+                  Login
+                </a>
+                <a href="Sign-Up.html" class="btn btn-primary me-3">
+                  Sign up for free
+                </a>
+            
+          </div>
+          <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+       </nav>
+       <!-- Navbar -->
+        
+       <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarExample01"
+              aria-controls="navbarExample01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarExample01">
+              <ul class="nav1 navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+                </li>
+                <div class=" sho container-fluid">
+                  <ul class="navbar-nav">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-mdb-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Shop
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                          <a class="dropdown-item" href="iphone.html">Iphone</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="ipad.html">Ipad</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="macbook.html">Macbooks</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+  
+       </header>
+
+       <form id="contact-form" class=" container border mt-3 bg-light">
+        <div class="row">
+          <div class="me col-md-6 p-5 bg-primary text-white">
+            <h1>Leave a Message</h1>
+            
+          </div>
+          <div class="te col-md-6 border-left py-3">
+            <h1>Contact Form</h1>
+            <div class="form-group">
+              <h5 for="name">Name</h5>
+              <input type="text" name="name" class="form-control" placeholder="Enter name" required />
+            </div>
+            <div class="form-group">
+              <h5>Email</h5>
+              <input type="email"  name="email" class="form-control"  placeholder="Enter email" required/>
+            </div>
+            <div class="form-group">
+              <h5 for="message">Message</h5>
+              <textarea class="form-control" name="message"  rows="3"  required ></textarea>
+            </div>
+            <button class="bu btn btn-primary" >Submit</button>
+          </div>
+        
+        
+        </div>
+       </form>
+       <hr class="her">
+       <div class="  container border mt-3 bg-light">
+        <div class="row">
+          <div class="me col-md-6 p-5 bg-primary text-white ">
+            <h1>Find Our Location </h1>
+          </div>
+          <div class="map  col-md-6 border-left py-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d441642.68175900547!2d31.927282726562492!3d30.14188120000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14581510f9e1addd%3A0xada78945ec0d9b63!2sBrand%20A%26M!5e0!3m2!1sar!2seg!4v1691141828375!5m2!1sar!2seg" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+       </div>
+      
+
+       <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>A&M
+                </h6>
+                <p>
+                  A website for selling iPhones, iPads, and MacBooks is an online platform that specializes in offering Apple products for sale.
+                  The website typically features a wide range of Apple devices, including the latest models 
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="iphone.html" class="text-reset">iphone</a>
+                </p>
+                <p>
+                  <a href="ipad.html" class="text-reset">Ipad</a>
+                </p>
+                <p>
+                  <a href="macbook.html" class="text-reset">Macbook</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Airpods</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> Cairo, Naser City 10012, EGY</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  Amrkhaled@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i>  01 156 157 211</p>
+                <p><i class="fas fa-print me-3"></i> 01 156 196 212</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="Home.html">A&M</a>
+        </div>
+        <!-- Copyright -->
+       </footer>
+
+    <script src="main.js"></script>
+    <!-- End your project here-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+</html>
